@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- 更多 -->
+
+    <Button
+        android:id="@+id/btn_myaccount_xkzmore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3000"
+        android:gravity="center"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:text="@string/txt_lookmore"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimens_18sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_myaccount_loading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ProgressBar
+            style="?android:progressBarStyleSmallInverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:indeterminateBehavior="repeat" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:padding="3.0px"
+            android:text="@string/txt_loading"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>

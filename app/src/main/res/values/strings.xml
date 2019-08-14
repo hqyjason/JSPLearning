@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">即时配在线学习</string>
+    <string name="txt_lookmore">点击查看更多</string>
+    <string name="txt_loading">数据读取中...</string>
+</resources>

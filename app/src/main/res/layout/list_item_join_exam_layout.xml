@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tv_jexam_item_wei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimens_5"
+        android:layout_marginLeft="@dimen/dimens_10"
+        android:layout_marginRight="@dimen/dimens_10"
+        android:layout_marginTop="@dimen/dimens_5"
+        android:background="@drawable/sign_text_color_green_10"
+        android:text="未发布"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimens_5"
+        android:layout_marginRight="@dimen/dimens_10"
+        android:layout_marginTop="@dimen/dimens_5"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_jexam_item_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="类型"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_jexam_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="标题"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dimens_18sp" />
+    </LinearLayout>
+
+</LinearLayout>

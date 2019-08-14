@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <corners
+        android:radius="10dip"/>
+
+    <solid android:color="@color/signout_text_green"/>
+    
+     <padding android:left="7dip"
+        android:right="7dip"
+        android:top="2dip"
+        android:bottom="2dip"/>
+</shape>

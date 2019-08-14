@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/tittle" />
+    
+<!-- 	<TextView 
+	    android:id="@+id/tv_exame"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="考试中心"
+	    android:gravity="center"
+	    android:textSize="26sp"/>
+		<TextView 
+	    android:id="@+id/tv_train"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:layout_marginTop="10dp"
+	    android:text="在线学习"
+	    android:textSize="26sp"/> -->
+	<android.support.v4.view.ViewPager
+        android:id="@+id/id_viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        >
+    </android.support.v4.view.ViewPager>
+
+    
+</LinearLayout>

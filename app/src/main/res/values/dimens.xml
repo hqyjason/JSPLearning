@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 选择登录按钮文字大小 -->
+    <dimen name="chose_btton_font_size">16dp</dimen>
+	<dimen name="left_memu_image_margin_top">45dip</dimen>
+	<dimen name="margin_botton_to_radio_button">15dip</dimen>
+	<dimen name="margin_top">10dip</dimen>
+	<dimen name="number_size">17sp</dimen>
+	    <dimen name="left_menu_line_marg_left">50dip</dimen>
+	    <dimen name="left_menu_line_marg_right">10dip</dimen>
+	    <dimen name="left_menu_radio_height">40dip</dimen>
+	    <dimen name="drawable_padd">15dip</dimen>
+	    <dimen name="margleft">19dip</dimen>
+	        <dimen name="left_menu_font_size">16sp</dimen>
+	         <dimen name="left_memu_image_exit_margin_botton">15dip</dimen>
+	             <dimen name="left_memu_image_exit_margin_left">19dip</dimen>
+	                 <dimen name="shadow_width">150dp</dimen>
+    <!-- 余额 -->
+    <dimen name="line_width">0.5dip</dimen>
+    <dimen name="dimens_5">5dip</dimen>
+    <dimen name="dimens_05">0.5dip</dimen>
+    <dimen name="dimens_1">1dip</dimen>
+    <dimen name="dimens_2">2dip</dimen>
+    <dimen name="dimens_10">10dip</dimen>
+    <dimen name="dimens_15">15dip</dimen>
+    <dimen name="dimens_20">20dip</dimen>
+    <dimen name="dimens_25">25dip</dimen>
+    <dimen name="dimens_30">30dip</dimen>
+    <dimen name="dimens_35">35dip</dimen>
+    <dimen name="dimens_40">40dip</dimen>
+    <dimen name="dimens_46">46dip</dimen>
+    <dimen name="dimens_48">48dip</dimen>
+    <dimen name="dimens_50">50dip</dimen>
+    <dimen name="dimens_60">60dip</dimen>
+    <dimen name="dimens_70">70dip</dimen>
+    <dimen name="dimens_75">75dip</dimen>
+    <dimen name="dimens_80">80dip</dimen>
+    <dimen name="dimens_95">95dip</dimen>
+    <dimen name="dimens_100">100dip</dimen>
+    <dimen name="dimens_150">150dip</dimen>
+    <dimen name="dimens_160">160dip</dimen>
+    <dimen name="dimens_50dp">50dp</dimen>
+    <dimen name="dimens_30dp">30dp</dimen>
+    <dimen name="dimens_10dp">10dp</dimen>
+    <dimen name="dimens_1dp">1dp</dimen>
+
+    <!-- 补单 -->
+    <dimen name="index_order_ll_height">65dip</dimen>
+    <dimen name="index_order_ll_height_add">66dip</dimen>
+    <!-- 不同屏幕，有不同的数值 -->
+    <dimen name="quick_order_button_margin_top">50dip</dimen>
+    <dimen name="address_item_padding_width">5dip</dimen>
+    <dimen name="dimens_14sp">14sp</dimen>
+    <dimen name="dimens_15sp">15sp</dimen>
+    <dimen name="dimens_16sp">16sp</dimen>
+    <dimen name="dimens_18sp">18sp</dimen>
+    <dimen name="dimens_20sp">20sp</dimen>
+    <dimen name="dimens_25sp">25sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>
